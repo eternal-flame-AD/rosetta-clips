@@ -1,0 +1,32 @@
+<ROSETTASCRIPTS>
+        <SCOREFXNS>
+                
+                <ScoreFunction name="hard_rep" weights="ligand">
+                </ScoreFunction>
+        
+        </SCOREFXNS>
+        <RESIDUE_SELECTORS>
+        </RESIDUE_SELECTORS>
+        <PACKER_PALETTES>
+        </PACKER_PALETTES>
+
+        <TASKOPERATIONS>
+                <RestrictToRepacking name="repackonly" />
+        </TASKOPERATIONS>
+        
+        <MOVE_MAP_FACTORIES>
+        </MOVE_MAP_FACTORIES>
+        <SIMPLE_METRICS>
+        </SIMPLE_METRICS>
+        <FILTERS>
+        </FILTERS>
+        <MOVERS>
+                
+
+                <PackRotamersMover name="repack" scorefxn="hard_rep" task_operations="repackonly"/>
+
+        </MOVERS>
+        <PROTOCOLS>
+        </PROTOCOLS>
+        <OUTPUT />
+</ROSETTASCRIPTS>

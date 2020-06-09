@@ -1,0 +1,7 @@
+This is a simple docking on a DHFR (PDB: 1U72) written in RosettaScripts.
+
+* repacking is not required in this example, but recommended if working with a theoretical model
+
+Reference:
+(1) Lemmon, G.; Meiler, J. RosettaLigand Docking with Flexible XML Protocols. Methods Mol Biol 2012, 819, 143–155. https://doi.org/10.1007/978-1-61779-465-0_10.
+(2) Ligand_dock application https://www.rosettacommons.org/docs/latest/application_documentation/docking/ligand-dock (accessed Jun 8, 2020).

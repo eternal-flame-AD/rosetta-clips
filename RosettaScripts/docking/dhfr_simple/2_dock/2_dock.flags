@@ -1,0 +1,5 @@
+-out:prefix dock_
+-parser:protocol 2_dock.xml
+-in:file:list filelist.txt
+-run:constant_seed
+-in:file:extra_res_path .

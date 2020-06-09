@@ -1,0 +1,4 @@
+-out:prefix repack_
+-parser:protocol 1_repack.xml
+-in:file:s 1u72_prot.pdb
+-run:constant_seed
